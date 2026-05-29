@@ -18,7 +18,7 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center text-center mt-32 px-6">
 
         <h1 className="text-6xl font-bold mb-6">
-          Welcome to MathNova
+          Welcome to Math-Nova
         </h1>
 
         <p className="text-xl max-w-2xl mb-8">

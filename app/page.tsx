@@ -89,7 +89,146 @@ export default function Home() {
         </div>
 
       </section>
+      {/* QUICK STATS */}
+      <section className="px-6 md:px-12 py-16">
 
+        <div className="max-w-7xl mx-auto">
+
+          <h2 className="text-4xl font-bold mb-10 text-center">
+            Your Learning Progress
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-6">
+
+            <div className="bg-cyan-500/20 border border-cyan-500/20 p-8 rounded-2xl">
+
+              <h3 className="text-5xl font-bold mb-4">
+                12
+              </h3>
+
+              <p className="text-slate-300 text-lg">
+                Lessons Completed
+              </p>
+
+            </div>
+
+            <div className="bg-purple-500/20 border border-purple-500/20 p-8 rounded-2xl">
+
+              <h3 className="text-5xl font-bold mb-4">
+                4
+              </h3>
+
+              <p className="text-slate-300 text-lg">
+                Active Courses
+              </p>
+
+            </div>
+
+            <div className="bg-green-500/20 border border-green-500/20 p-8 rounded-2xl">
+
+              <h3 className="text-5xl font-bold mb-4">
+                85%
+              </h3>
+
+              <p className="text-slate-300 text-lg">
+                Average Quiz Score
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+      {/* CONTINUE LEARNING */}
+      <section className="px-6 md:px-12 py-16">
+
+        <div className="max-w-7xl mx-auto">
+
+          <h2 className="text-4xl font-bold mb-10">
+            Continue Learning
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+
+            <div className="bg-white/10 border border-white/10 rounded-2xl p-8 hover:scale-105 transition">
+
+              <h3 className="text-3xl font-bold mb-4 text-cyan-400">
+                Algebra Basics
+              </h3>
+
+              <p className="text-slate-300 text-lg mb-6">
+                Continue learning equations, variables,
+                and graph fundamentals.
+              </p>
+
+              <button className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl font-semibold transition">
+
+                Resume Course
+
+              </button>
+
+            </div>
+
+            <div className="bg-white/10 border border-white/10 rounded-2xl p-8 hover:scale-105 transition">
+
+              <h3 className="text-3xl font-bold mb-4 text-purple-400">
+                Geometry Fundamentals
+              </h3>
+
+              <p className="text-slate-300 text-lg mb-6">
+                Explore angles, triangles,
+                circles, and geometry rules.
+              </p>
+
+              <button className="bg-purple-500 hover:bg-purple-600 px-6 py-3 rounded-xl font-semibold transition">
+
+                Continue Learning
+
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+      {/* RECENT LESSONS */}
+      <section className="px-6 md:px-12 py-16">
+
+        <div className="max-w-7xl mx-auto">
+
+          <h2 className="text-4xl font-bold mb-10">
+            Recent Lessons
+          </h2>
+
+          <div className="space-y-5">
+
+            <div className="bg-white/10 border border-white/10 p-6 rounded-2xl">
+
+              📘 Quadratic Equations
+
+            </div>
+
+            <div className="bg-white/10 border border-white/10 p-6 rounded-2xl">
+
+              📐 Geometry Basics
+
+            </div>
+
+            <div className="bg-white/10 border border-white/10 p-6 rounded-2xl">
+
+              📊 Understanding Graphs
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
     </main>
   );
 }
